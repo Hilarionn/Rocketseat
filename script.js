@@ -1,17 +1,16 @@
 function toggleMode() {
-const html = document.documentElement
-html.classList.toggle('light')
+    const html = document.documentElement;
+    html.classList.toggle('light'); // adiciona/remove classe 'light'
 
-// pegar a tag img
-const img = document.querySelector("#profile img" )
+    const img = document.querySelector("#profile img");
 
-//substituir a imagem
-if (html.classList.contains('light')) {
-//se tiver light mode, adicionar a imagem light
-img.setAttribute('src', 'Assets/Avatar-light.png')
-} else {
-    //se tiver sem light mode, manter a imagem normal
-    img.setAttribute('src', 'Assets/Avatar.png')
+    if (html.classList.contains('light')) {
+        img.setAttribute('src', './Assets/Avatar-light.png'); // caminho relativo correto
+    } else {
+        img.setAttribute('src', './Assets/Avatar.png');
+    }
+}
+
 }
 
 
