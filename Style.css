@@ -64,8 +64,10 @@ body {
   padding: 24px;
 }
 #profile img {
-  width: 112px;
+  width: 112px; 
+  height: 112px; /*adicionei height */
   border-radius: 50%;
+  object-fit: cover; /*vou cortar a imagem para arredondar */
 }
 
 #profile p {
