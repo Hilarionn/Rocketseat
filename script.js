@@ -11,13 +11,13 @@ function toggleMode() {
 
 // Alerta de página em construção
 
-const comingSoonLinks = document.querySelectorAll('coming-soon');
-comingSoonLinks.forEach(link => {{
+const comingSoonLinks = document.querySelectorAll('.coming-soon');
+comingSoonLinks.forEach(link => {
   link.addEventListener('click', function(event){
     event.preventDefault();
     alert('Página em construção!');
   });
-}})
+});
 
 
 
