@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   comingSoonLinks.forEach(link => {
     link.addEventListener('click', function(event) {
       event.preventDefault();             // impede que o link navegue
-      alert('Página em construção!');     // mostra a mensagem
+      alert('Página em construção, por Gabriel 😎!');     // mostra a mensagem
     });
   });
 });
